@@ -19,4 +19,7 @@ V enums() {
     return _enums;
 }
 
+template <typename T> using In = T;
+template <typename T> using Out = T;
+
 #endif //IPHELF_H
