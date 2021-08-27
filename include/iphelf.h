@@ -1,5 +1,4 @@
-#ifndef IPHELF_H
-#define IPHELF_H
+#pragma once
 
 #include <memory>
 #include <functional>
@@ -25,5 +24,3 @@ template <typename T> using Out = T;
 
 using std::function;
 template <class T> using F = function<T>;
-
-#endif //IPHELF_H
