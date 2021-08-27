@@ -2,6 +2,7 @@
 #define IPHELF_H
 
 #include <memory>
+#include <functional>
 
 using std::shared_ptr;
 template<class T> using P = shared_ptr<T>;
@@ -21,5 +22,8 @@ V enums() {
 
 template <typename T> using In = T;
 template <typename T> using Out = T;
+
+using std::function;
+template <class T> using F = function<T>;
 
 #endif //IPHELF_H
